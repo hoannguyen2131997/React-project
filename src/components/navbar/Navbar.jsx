@@ -1,44 +1,54 @@
-import React from 'react'
-import { RiMenu3Line, RiCloseLin } from 'react-icons/ri';
-import './navbar.css'
-import logo from '../../assets/logo.svg';
+import React, { useState } from "react";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import "./navbar.css";
+import logo from "../../assets/logo.svg";
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
-    <div className='gpt3__navbar'>
+    <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
           <img src={logo} alt="logo" />
         </div>
 
-        <ul className="gpt3__navbar-links_list gpt3__navbar_text">
-          <li className="gpt3__navbar-links_list_item">
-            <a href="">Home</a>
-          </li>
-          <li className="gpt3__navbar-links_list_item">
-            <a href="">What is GPT?</a>
-          </li>
-          <li className="gpt3__navbar-links_list_item">
-            <a href="">Open AI</a>
-          </li>
-          <li className="gpt3__navbar-links_list_item">
-            <a href="">Case studies</a>
-          </li>
-          <li className="gpt3__navbar-links_list_item">
-            <a href="">Libragy</a>
-          </li>
-        </ul>
+        <div className="gpt3__navbar-links_container">
+          <p><a href="#home">Home</a></p>
+          <p><a href="#wgpt3">What is GPT?</a></p>
+          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#features">Case studies</a></p>
+          <p><a href="#blog">Libragy</a></p>
+        </div>
       </div>
 
-      <div className="gpt3__navbar_sign gpt3__navbar_text">
-        <div className="gpt3__navbar_sign_in">
-          <a href="">Sign in</a>
-        </div>
-        <div className="gpt3__navbar_sign_up">
-          <a href="">Sign up</a>
-        </div>
+      <div className="gpt3__navbar_sign">
+        <p>Sign in</p>
+        <button type="button">Sign up</button>
+      </div>
+
+      <div className="gpt3__navbar-menu">
+        {toggleMenu
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+        }
+        {toggleMenu && (
+          <div className="gpt3__navbar-menu_container scale-up-center">
+            <div className="gpt3__navbar-menu_container-links">
+              <p><a href="#home">Home</a></p>
+              <p><a href="#wgpt3">What is GPT3?</a></p>
+              <p><a href="#possibility">Open AI</a></p>
+              <p><a href="#features">Case Studies</a></p>
+              <p><a href="#blog">Library</a></p>
+            </div>
+            <div className="gpt3__navbar-menu_container-links-sign">
+              <p>Sign in</p>
+              <button type="button">Sign up</button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
