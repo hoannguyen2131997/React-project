@@ -1,0 +1,117 @@
+.gpt3__header {
+    display: flex;
+    padding: 0 6rem;
+}
+
+.gpt3__header_content {
+    flex: 1;
+    padding-top: 108px;
+}
+
+.gpt3__header_content h2 {
+    width: 614px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    /* or 121% */
+    letter-spacing: -0.04em;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.gpt3__header_content form {
+    display: flex;
+    padding-top: 2.975rem;
+}
+
+.gpt3__header_content p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #81AFDD;
+    width: 554px;
+    padding-top: 2.063rem;
+}
+
+.gpt3__header_content input {
+    width: 456px;
+    height: 73px;
+    background: #052D56;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+
+.gpt3__header_content button {
+    width: 174px;
+    height: 73px;
+    background: #FF4820;
+    border-radius: 0 5px 5px 0;
+    border-width: none;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.gpt3__header_content button>span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.gpt3__header_content button:hover {
+    opacity: 0.8;
+}
+
+.gpt3__header_content input::placeholder {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 27px;
+    color: #3D6184;
+    padding: 24px 0 24px 32px;
+}
+
+.gpt3__header_content_signup {
+    display: flex;
+    padding-top: 2.33rem;
+}
+
+.gpt3__header_content_signup img {
+    width: 581.92px;
+    height: 37.61px;
+    width: 181.79px;
+    height: 38px;
+}
+
+.gpt3__header_content_signup span {
+    display: block;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 38px;
+    margin-left: 0.849rem;
+    text-align: center;
+    /* identical to box height, or 313% */
+
+    color: #FFFFFF;
+}
+
+.gpt3__header_illustration {
+    flex: 1;
+}
+
+.gpt3__header_illustration img {
+    width: 667.41px;
+    height: 701.59px;
+}
