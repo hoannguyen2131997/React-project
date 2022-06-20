@@ -1,19 +1,12 @@
 import React from 'react'
 import './whatGPT3.css'
+import Feature from '../../components/feature/Feature'
 
 const WhatGPT3 = () => {
   return (
     <div class='gpt3__whatGPT3 gradient__bg'>
       <div className="gpt3__whatGPT3__top">
-        <div className="gpt3__whatGPT3-content">
-          <div className="gpt3__whatGPT3-content__header">
-            <div></div>
-            <h2>What is GPT-3</h2>
-          </div>
-          <div className="gpt3__whatGPT3-content__text">
-            We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.
-          </div>
-        </div>
+        <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
       </div>
 
       <div className="gpt3__whatGPT3__mid">
@@ -22,35 +15,9 @@ const WhatGPT3 = () => {
       </div>
 
       <div className="gpt3__whatGPT3__bottom">
-        <div className="gpt3__whatGPT3-content">
-          <div className="gpt3__whatGPT3-content__header">
-            <div></div>
-            <h2>Chatbots</h2>
-          </div>
-          <div className="gpt3__whatGPT3-content__text">
-            We so opinion friends me message as delight. Whole front do of plate heard oh ought.
-          </div>
-        </div>
-
-        <div className="gpt3__whatGPT3-content">
-          <div className="gpt3__whatGPT3-content__header">
-            <div></div>
-            <h2>Knowledgebase</h2>
-          </div>
-          <div className="gpt3__whatGPT3-content__text">
-            At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b
-          </div>
-        </div>
-
-        <div className="gpt3__whatGPT3-content">
-          <div className="gpt3__whatGPT3-content__header">
-            <div></div>
-            <h2>Education</h2>
-          </div>
-          <div className="gpt3__whatGPT3-content__text">
-            At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b
-          </div>
-        </div>
+        <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
+        <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+        <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
       </div>
     </div>
   )

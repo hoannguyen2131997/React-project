@@ -157,3 +157,18 @@
         line-height: 24px;
     }
 }
+
+@media (max-width: 450px) {
+    .gpt3__header {
+        padding: 0 1rem;
+    }
+
+    .gpt3__header-content button {
+        flex: 36;
+    }
+
+    .gpt3__header-content button>span {
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
