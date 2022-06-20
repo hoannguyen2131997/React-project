@@ -42,8 +42,8 @@
 .gpt3__header-content input {
     flex: 76;
     width: 100%;
+    height: 53px;
     min-height: 50px;
-    height: 73px;
     background: #052D56;
     border-radius: 5px 0px 0px 5px;
     border: none;
@@ -61,8 +61,7 @@
 .gpt3__header-content button {
     flex: 29;
     width: 100%;
-    min-height: 50px;
-    min-height: 50px;
+    max-height: 100%;
     background: #FF4820;
     border-radius: 0 5px 5px 0;
     border-width: none;
@@ -92,7 +91,10 @@
 
 .gpt3__header-content__signup {
     display: flex;
+    align-items: flex-start;
+    align-items: center;
     padding-top: 2.33rem;
+    width: 100%;
 }
 
 .gpt3__header-content__signup img {
@@ -102,7 +104,7 @@
 
 .gpt3__header-content__signup span {
     display: block;
-    font-family: 'Manrope';
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 0.75rem;
     line-height: 38px;

@@ -1,0 +1,110 @@
+.gpt3__whatGPT3 {
+    display: flex;
+    flex-direction: column;
+    padding: 3.563rem;
+    margin: 0 8.438rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__whatGPT3__top {
+    flex: 1;
+}
+
+.gpt3__whatGPT3-content {
+    width: 100%;
+}
+
+.gpt3__whatGPT3__top .gpt3__whatGPT3-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gpt3__whatGPT3__top .gpt3__whatGPT3-content__header {
+    min-width: 170px;
+}
+
+.gpt3__whatGPT3__top .gpt3__whatGPT3-content__text {
+    max-width: 700px;
+}
+
+.gpt3__whatGPT3-content__header div {
+    width: 38px;
+    height: 3px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+
+.gpt3__whatGPT3-content__header h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.gpt3__whatGPT3-content__text {
+    color: #81AFDD;
+}
+
+
+.gpt3__whatGPT3__mid {
+    flex: 1;
+    margin-top: 5.625rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gpt3__whatGPT3__mid h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 30rem;
+    min-width: 30rem;
+}
+
+.gpt3__whatGPT3__mid h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    color: #FF8A71;
+}
+
+.gpt3__whatGPT3__bottom {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5.625rem;
+}
+
+.gpt3__whatGPT3__bottom .gpt3__whatGPT3-content {
+    min-width: 12.063rem;
+    flex: 1;
+    margin-top: 2rem;
+    max-width: 24.375rem;
+}
+
+
+.gpt3__whatGPT3__bottom .gpt3__whatGPT3-content__header {
+    margin-left: 1rem;
+}
+
+.gpt3__whatGPT3__bottom .gpt3__whatGPT3-content__text {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
