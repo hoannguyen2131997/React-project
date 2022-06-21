@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: 3.563rem;
-    margin: 0 8.438rem;
+    margin: 0 6rem;
 }
 
 .gpt3__whatGPT3__top {
@@ -45,11 +45,11 @@
     margin-top: 3.625rem;
 }
 
-.gpt3__whatGPT3__bottom .gpt3__whatGPT3-feature__text {
+.gpt3__whatGPT3__bottom .gpt3__feature-component__text {
     margin-top: 1rem;
 }
 
-.gpt3__whatGPT3__bottom .gpt3__whatGPT3-feature {
+.gpt3__whatGPT3__bottom .gpt3__feature-component {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -58,7 +58,7 @@
     margin-top: 2rem;
 }
 
-.gpt3__whatGPT3__bottom .gpt3__whatGPT3-feature__text {
+.gpt3__whatGPT3__bottom .gpt3__feature-component__text {
     width: 90%;;
 }
 
@@ -89,7 +89,7 @@
         margin-top: 1rem;
     }
 
-    .gpt3__whatGPT3__bottom .gpt3__whatGPT3-feature__text {
+    .gpt3__whatGPT3__bottom .gpt3__feature-component__text {
         margin-top: 0.5rem;
     }
 }
@@ -97,7 +97,7 @@
 @media screen and (max-width: 650px) {
     .gpt3__whatGPT3 {
         padding: 2rem;
-        margin: 0px 6rem;
+        margin: 0px 1rem;
     }
 
     .gpt3__whatGPT3__mid h1 {
@@ -121,7 +121,7 @@
         margin-top: 0.5rem;
     }
 
-    .gpt3__whatGPT3__bottom .gpt3__whatGPT3-feature__text {
+    .gpt3__whatGPT3__bottom .gpt3__feature-component__text {
         margin-top: 0.2rem;
     }
 }

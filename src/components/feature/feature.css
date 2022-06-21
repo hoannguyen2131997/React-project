@@ -1,20 +1,20 @@
-.gpt3__whatGPT3-feature {
+.gpt3__feature-component {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.gpt3__whatGPT3-feature__header {
+.gpt3__feature-component__header {
     min-width: 170px;
 }
 
-.gpt3__whatGPT3-feature__header div {
+.gpt3__feature-component__header div {
     width: 38px;
     height: 3px;
     background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
 }
 
-.gpt3__whatGPT3-feature__header h2 {
+.gpt3__feature-component__header h2 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 24px;
@@ -23,23 +23,23 @@
     color: #FFFFFF;
 }
 
-.gpt3__whatGPT3-feature__text {
+.gpt3__feature-component__text {
     display: flex;
     align-items: flex-start;
 }
 
-.gpt3__whatGPT3-feature__text p {
+.gpt3__feature-component__text p {
     max-width: 700px;
     color: #81AFDD;
 }
 
 @media screen and (max-width: 1050px) {
-    .gpt3__whatGPT3-feature {
+    .gpt3__feature-component {
         flex-direction: column;
     }
 
 
-    .gpt3__whatGPT3-feature__header h2 {
+    .gpt3__feature-component__header h2 {
         font-weight: 700;
         font-size: 20px;
         line-height: 30px;
