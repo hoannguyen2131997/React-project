@@ -1,0 +1,102 @@
+.gpt3__possibility {
+    display: flex;
+    margin: 0 6rem;
+}
+
+.gpt3__possibility-img {
+  margin-right: 1rem;
+}
+
+.gpt3__possibility-img img {
+    width: 546px;
+    height: 607.53px;
+}
+
+.gpt3__possibility-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.gpt3__possibility-content h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
+
+.gpt3__possibility-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-width: 426px;
+    margin-top: 1rem;
+}
+
+.gpt3__possibility-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #81AFDD;
+    max-width: 480px;
+    margin-top: 2rem;
+}
+
+.gpt3__possibility-content h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__possibility {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .gpt3__possibility {
+        margin-top: 6rem;
+    }
+
+    .gpt3__possibility-img img {
+        width: 60vh;
+        height: 60vh;
+    }
+
+    .gpt3__possibility-img {
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gpt3__possibility-content h1 {
+        max-width: none;
+    }
+
+    .gpt3__possibility-content p {
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__possibility {
+        margin: 0;
+        padding: 0 2rem;
+    }
+
+    .gpt3__possibility-content h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
