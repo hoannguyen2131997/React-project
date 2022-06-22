@@ -92,7 +92,7 @@
 @media screen and (max-width: 650px) {
     .gpt3__possibility {
         margin: 0;
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     .gpt3__possibility-content h1 {
