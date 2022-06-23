@@ -19,7 +19,7 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
-    line-height: 30px; 
+    line-height: 30px;
     color: #0E0E0E;
 }
 
@@ -31,16 +31,17 @@
     color: #000000;
 }
 
-.gpt3__CTA-button {
-
-}
-
 .gpt3__CTA-button button {
     background: #000000;
     color: #fff;
     border-radius: 40px;
     width: 189.14px;
     height: 59.4px;
+    cursor: pointer;
+}
+
+.gpt3__CTA-button button:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1050px) {
@@ -61,7 +62,7 @@
     .gpt3__CTA-button {
         margin-top: 3rem;
     }
-} 
+}
 
 @media screen and (max-width: 650px) {
     .gpt3__CTA {
